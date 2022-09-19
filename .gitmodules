@@ -1,0 +1,3 @@
+[submodule "ultimaille"]
+	path = ultimaille
+	url = git@github.com:ssloy/ultimaille.git
