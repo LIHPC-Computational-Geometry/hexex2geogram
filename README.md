@@ -1,4 +1,4 @@
-# hexex2geogram
+# hexex2geogram : .hexex ⇄ .geogram mesh file conversion 
 
 A `.hexex` file stores a tetrahedral mesh with an $u,v,w$ parametrization. The syntax is explained in the additional material of [HexEx](https://www.graphics.rwth-aachen.de/publication/03260/)[^HexEx] and also [below](#hexex-format).
 
@@ -23,7 +23,7 @@ cmake ..
 make
 ```
 
-## Test
+## Tutorial
 
 The `sphere.hexex` file comes from the additional material of [HexEx](https://www.graphics.rwth-aachen.de/publication/03260/)[^HexEx].
 
@@ -38,7 +38,7 @@ Then:
 - click on "autorange"
 - use a perceptually correct colormap
 
-The output files of [MC3D](https://github.com/HendrikBrueckler/MC3D)[^MC3D] also use the `.hexex` format, with additional information at the end (the walls of the block decomposition). These walls could be saved in the output `.geogram` file with cell facets attributes, but as of today (September 2022), [Graphite/Vorpaview cannot display them](https://github.com/BrunoLevy/geogram/issues/19). Instead, tetrahedra are grouped by block, and a cell attribute "cells.block_id" is exported. The computation is quite slow.
+The output files of [MC3D](https://github.com/HendrikBrueckler/MC3D)[^MC3D] also use the `.hexex` format, with additional information at the end (the walls of the block decomposition). These walls could be saved in the output `.geogram` file with cell facets attributes, but as of today (October 2023), [Graphite/Vorpaview cannot display them](https://github.com/BrunoLevy/geogram/issues/19). Instead, tetrahedra are grouped by block, and a cell attribute "cells.block_id" is exported. The computation is quite slow.
 
 ## `.hexex` format
 
@@ -58,3 +58,7 @@ In case of an output of [MC3D](https://github.com/HendrikBrueckler/MC3D)[^MC3D],
     Max Lyon, David Bommes, Leif Kobbelt, *HexEx: Robust Hexahedral Mesh Extraction*, SIGGRAPH 2016, [url](https://www.graphics.rwth-aachen.de/publication/03260/)
 [^MC3D]:
     Hendrik Brückler, Ojaswi Gupta, Manish Mandad, Marcel Campen, *The 3D Motorcycle Complex for Structured Volume Decomposition*, Eurographics 2022, [url](http://graphics.cs.uos.de/papers/3D_Motorcycle_Graph_EG2022.pdf)
+
+## License
+
+[AGPL-3.0](LICENSE)
