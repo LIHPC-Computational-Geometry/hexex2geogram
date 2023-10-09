@@ -1,4 +1,4 @@
-# hexex2geogram : .hexex ⇄ .geogram mesh file conversion 
+# hexex2geogram : .hexex ⇄ .geogram mesh file conversion
 
 A `.hexex` file stores a tetrahedral mesh with an $u,v,w$ parametrization. The syntax is explained in the additional material of [HexEx](https://www.graphics.rwth-aachen.de/publication/03260/)[^HexEx] and also [below](#hexex-format).
 
@@ -62,3 +62,7 @@ In case of an output of [MC3D](https://github.com/HendrikBrueckler/MC3D)[^MC3D],
 ## License
 
 [AGPL-3.0](LICENSE)
+
+## Cite this repository
+
+See [CITATION.cff](CITATION.cff) or the dedicated button on GitHub

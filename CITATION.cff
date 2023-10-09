@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: hexex2geogram
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sébastien
+    family-names: Mestrallet
+    orcid: 'https://orcid.org/0000-0002-4519-2814'
+repository-code: >-
+  https://github.com/LIHPC-Computational-Geometry/hexex2geogram
+abstract: '.hexex ⇄ .geogram mesh file conversion'
+keywords:
+  - mesh
+  - file-converter
+  - file-conversion
+  - mesh-processing
+  - geometry-processing
+license: AGPL-3.0
