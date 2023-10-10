@@ -13,7 +13,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-4519-2814'
 repository-code: >-
   https://github.com/LIHPC-Computational-Geometry/hexex2geogram
-abstract: '.hexex ⇄ .geogram mesh file conversion'
+abstract: '.hexex to .geogram mesh file conversion'
 keywords:
   - mesh
   - file-converter
