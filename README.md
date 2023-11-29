@@ -10,7 +10,7 @@ This simple program converts a `.hexex` file to a `.geogram` one, using per-cell
 
 - a C++ 17 compiler
 - [CMake](https://cmake.org/)
-- [UltiMaille](https://github.com/ssloy/ultimaille) (included as submodule)
+- [UltiMaille](https://github.com/ultimaille/ultimaille) (included as submodule)
 - [Graphite](https://github.com/BrunoLevy/GraphiteThree) or Vorpaview, to visualize the output `.geogram` file
 - [OpenMP](https://www.openmp.org) (optionnal)
 
