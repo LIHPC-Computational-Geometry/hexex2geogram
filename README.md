@@ -1,5 +1,7 @@
 # hexex2geogram : .hexex to .geogram mesh file conversion
 
+[![Maintenance Level: Abandoned](https://badgen.net/badge/Maintenance%20Level/Abandoned?color=fe7d37)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
 A `.hexex` file stores a tetrahedral mesh with an $u,v,w$ parametrization. The syntax is explained in the additional material of [HexEx](https://www.graphics.rwth-aachen.de/publication/03260/)[^HexEx] and also [below](#hexex-format).
 
 `.geogram` is a file format used by the [Geogram library](https://github.com/BrunoLevy/geogram/wiki/Mesh), which supports embedded attributes.
